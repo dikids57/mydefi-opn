@@ -8,7 +8,7 @@ export default function MyDeFi() {
           <h1 className="text-7xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             MyDeFi
           </h1>
-          <p className="text-xl mt-3 text-purple-300">Savings &amp; Lending on OPN Chain</p>
+          <p className="text-xl mt-3 text-purple-300">Savings & Lending on OPN Chain</p>
         </div>
 
         <div className="bg-zinc-900/80 backdrop-blur-xl border border-purple-500/30 rounded-3xl p-10 shadow-2xl">
