@@ -10,9 +10,10 @@ import {
   useSwitchChain 
 } from 'wagmi';
 import { injected } from 'wagmi/connectors';
-import { WagmiProvider } from 'wagmi';
+import { WagmiProvider } from 'waggi';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
+// ===== OPN Testnet Config (sudah di dalam file ini) =====
 const opnTestnet = {
   id: 984,
   name: 'OPN Testnet',
