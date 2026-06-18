@@ -1,19 +1,9 @@
-{
-  "name": "mydefi-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwindcss": "^3.4.0",
-    "wagmi": "^2.12.0",
-    "viem": "^2.21.0",
-    "@tanstack/react-query": "^5.59.0"
-  }
-      }
+import './globals.css';
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ms">
+      <body>{children}</body>
+    </html>
+  );
+}
